@@ -8,3 +8,13 @@
   filter: brightness(50%);
 }
 
+.modal-section {
+  background-color: #289BDE;
+}
+
+@media screen and (max-width:576px) {
+  .header-slider p{
+    display: none;
+  }
+}
+
