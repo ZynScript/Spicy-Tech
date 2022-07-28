@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* =====[X]===== {Styles} =====[X]===== */
+
 * {
   font-family: 'Poppins', sans-serif;
 }
@@ -12,9 +14,28 @@
   background-color: #289BDE;
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+@media screen and (max-width:1200px) { 
+  #companies {
+    visibility: hidden;
+  }
+  footer {
+    margin-top: -166px;
+  }
+}
+
 @media screen and (max-width:576px) {
   .header-slider p{
     display: none;
   }
 }
 
+/* =====[X]===== {Styles Completed} =====[X]===== */
